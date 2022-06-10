@@ -16,4 +16,7 @@ public class NotesService {
     public List<Notes> getAllNotes() {
         return allNotes;
     }
+    public Notes getOneNote( String id) {
+        return allNotes.stream().filter(notes -> notes.getId().equals(id)).findFirst().get();
+    }
 }
