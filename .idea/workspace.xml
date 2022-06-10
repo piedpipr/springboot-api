@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/SpringBootApiApp.java" afterDir="false" />
+    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="Hello world controller with /helloworld page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/Notes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +82,21 @@
       <option name="presentableId" value="Default" />
       <updated>1654882571243</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic SpringBoot Application Boilerplate">
+      <created>1654887938003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654887938003</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hello world controller with /helloworld page">
+      <created>1654889401589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654889401589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,5 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic SpringBoot Application Boilerplate" />
+    <MESSAGE value="Hello world controller with /helloworld page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello world controller with /helloworld page" />
   </component>
 </project>
