@@ -1,5 +1,6 @@
 package me.protik.springbootapi.notes;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,13 +10,11 @@ import java.util.List;
 
 @RestController
 public class NotesController {
+    @Autowired
+    private NotesService notesService;
 
     @GetMapping("/notes")
-    public List<Notes> allNotes(){
-        return Arrays.asList(
-                new Notes("01","Note 1", "This is note 1 body"),
-                new Notes("01","Note 1", "This is note 1 body"),
-                new Notes("01","Note 1", "This is note 1 body")
-                );
+    public List<Notes> getAllNote(){
+        return notesService.getAllNotes();
     }
 }

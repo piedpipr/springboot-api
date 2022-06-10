@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="Hello world controller with /helloworld page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/Notes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" afterDir="false" />
+    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="Added /notes with dummy notes objects">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654889401589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".idea">
+      <created>1654890700576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654890700576</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added /notes with dummy notes objects">
+      <created>1654890742931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654890742931</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic SpringBoot Application Boilerplate" />
     <MESSAGE value="Hello world controller with /helloworld page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello world controller with /helloworld page" />
+    <MESSAGE value=".idea" />
+    <MESSAGE value="Added /notes with dummy notes objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added /notes with dummy notes objects" />
   </component>
 </project>
