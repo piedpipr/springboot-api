@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="." />
+    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,26 +48,14 @@
     "last_opened_file_path": "/Users/piedpipr/dev/SPRINGBOOT-API",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="SpringBootApi" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="me.protik.springbootapi.SpringBootApiApp" />
       <module name="SPRINGBOOT-API" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SPRINGBOOT-API" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SPRINGBOOT-API" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654899875552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <created>1654899980130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654899980130</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
