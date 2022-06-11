@@ -30,4 +30,10 @@ public class NotesService {
             }
         };
     }
+    public void deleteNoteS(String id) {
+        for(int i = 0; i < allNotes.size(); i++){
+            if (allNotes.get(i).getId().equals(id)){ allNotes.remove(i);
+            }
+        };
+    }
 }

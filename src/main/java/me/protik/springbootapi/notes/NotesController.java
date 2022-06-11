@@ -28,4 +28,9 @@ public class NotesController {
     public void editNoteC(@RequestBody Notes note,@PathVariable String id){
         notesService.editNoteS(note, id);
     }
+
+    @RequestMapping(method = RequestMethod.DELETE, value = "/notes/{id}")
+    public void deleteNoteC(@PathVariable String id){
+        notesService.deleteNoteS(id);
+    }
 }
