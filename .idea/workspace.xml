@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="Added Data JPA Dependncy">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="6855acc5-2e67-4b3e-923a-c8ac51822098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/Notes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/protik/springbootapi/notes/NotesService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -36,11 +39,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>

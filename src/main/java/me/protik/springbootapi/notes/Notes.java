@@ -1,6 +1,11 @@
 package me.protik.springbootapi.notes;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Notes {
+    @Id
     private String id;
     private String name;
     private String body;

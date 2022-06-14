@@ -3,9 +3,8 @@ package me.protik.springbootapi.notes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.plaf.basic.BasicListUI;
-import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class NotesController {
@@ -17,7 +16,7 @@ public class NotesController {
         return notesService.getAllNotesS();
     }
     @RequestMapping("/notes/{id}")
-    public Notes getOneNoteC(@PathVariable String id){
+    public Optional<Notes> getOneNoteC(@PathVariable String id){
         return notesService.getOneNoteS(id);
     }
     @RequestMapping(method = RequestMethod.POST, value = "/notes")
